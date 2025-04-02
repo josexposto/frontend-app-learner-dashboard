@@ -26,6 +26,20 @@ const getLearnerHeaderMenu = (
         exploreCoursesClick(e);
       },
     },
+    {
+      type: 'item',
+      href: 'https://hackit-project.eu',
+      content: 'Hack-IT site',
+      isExternal: true,
+      target: '_blank',
+    },
+    {
+      type: 'item',
+      href: 'https://hackit-project.eu/cop-intro',
+      content: 'Community of Practice',
+      isExternal: true,
+      target: '_blank',
+    },
   ],
   secondaryMenu: [
     ...(getConfig().SUPPORT_URL ? [{
